@@ -15,7 +15,7 @@ p,span{
 }
 
 body{
-  background: #e6f2ff;
+  background: #fdfdfe;
   color: #0d0d0d;
   display: flex;
   flex-direction: column;
@@ -36,7 +36,7 @@ ul{
 
 .wrapperN-control{
   display: flex;
-  background: #003cb3;
+  background: #004a99;
 }
 
 .nav-control{
@@ -61,11 +61,10 @@ ul{
 
 .link-control{
   text-decoration: none;
-  color: #e6f2ff;
+  color: #fdfdfe;
   font-family: 'kelsonregular', sans-serif;
   font-size: 1.6em;
   padding: 0 1em 0 1em;
-  margin: auto;
   border-radius: 4px;
   transition: 0.5s;
 }
@@ -87,7 +86,7 @@ ul{
 
 .footer-control{
   background: #3396ff;
-  border-top: 4px solid #003cb3;
+  border-top: 4px solid #004a99;
   padding: 0.5em;
 }
   /*/All Pages*/
@@ -117,8 +116,8 @@ ul{
   }
 
   .toggle-box:checked ~ .toggle:before{
-    box-shadow: 0px -5px #f2f2f2, 0px 5px #f2f2f2;
-    background: #f2f2f2;
+    box-shadow: 0px -5px #fdfdfe, 0px 5px #fdfdfe;
+    background: #fdfdfe;
   }
 
   .toggle-box:checked ~ .nav-item{
@@ -129,10 +128,6 @@ ul{
   }
 }
 @media(min-width: 41.01em){
-  .nav-control{
-    margin: auto;
-  }
-
 .nav-item{
     display: inline-flex;
   }
