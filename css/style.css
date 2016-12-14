@@ -36,8 +36,12 @@ ul{
   padding: 0.5em;
 }
 
-.logo-control{
+.logo-control-desktop{
+  display: block;
+}
 
+.logo-control-mobile{
+  display: none;
 }
 
 .site-title{
@@ -105,6 +109,24 @@ ul{
 
 /*Media Quieries*/
 @media(max-width: 41.01em){
+  .header-control{
+    display: flex;
+  }
+
+  .logo-control-desktop{
+    display: none;
+  }
+
+  .logo-control-mobile{
+    display:block;
+    margin-right: 0.4em;
+  }
+
+  .site-title{
+    font-size: 1.3em;
+    text-align: center;
+  }
+
   .nav-item{
     display: none;
     height: 0;
