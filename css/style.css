@@ -47,6 +47,7 @@ ul{
 .site-title{
   align-self: center;
   margin: auto;
+  font-family: 'Fugaz One', cursive;
 }
 
 .wrapperN-control{
@@ -105,6 +106,47 @@ ul{
   padding: 0.5em;
 }
   /*/All Pages*/
+  /*Home Page*/
+  .article-wrap{
+    display: flex;
+    flex: 1 0 auto;
+    font-size: 1.1em;
+    text-align: center;
+  }
+
+  .software-article{
+    margin: 0.3em;
+    padding: 0.5em;
+    border: 4px solid #004a99;
+    border-radius: 3px;
+    background: #3396ff;
+    color: #fdfdfe;
+  }
+
+  .games-article{
+    margin: 0.3em;
+    padding: 0.5em;
+    border: 4px solid #004a99;
+    border-radius: 3px;
+    background: #3396ff;
+    color: #fdfdfe;
+  }
+
+  .web-article{
+    margin: 0.3em;
+    padding: 0.5em;
+    border: 4px solid #004a99;
+    border-radius: 3px;
+    background: #3396ff;
+    color: #fdfdfe;
+  }
+
+  .article-text{
+    background: #ffffcc;
+    color: #0d0d0d;
+    border-radius: 5px;
+  }
+  /*/Home Page*/
 /*/Class Selectors*/
 
 /*Media Quieries*/
@@ -159,10 +201,31 @@ ul{
     padding: 0.5em;
     opacity: 1;
   }
+
+  .article-wrap{
+    flex-direction: column;
+  }
 }
 @media(min-width: 41.01em){
-.nav-item{
+  .nav-item{
     display: inline-flex;
+  }
+
+  .article-wrap{
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .software-article{
+    width: 30%;
+  }
+
+  .games-article{
+    width: 30%;
+  }
+
+  .web-article{
+    width: 30%;
   }
 }
 /*/Media Quieries*/
