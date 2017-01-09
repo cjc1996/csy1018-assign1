@@ -204,6 +204,38 @@ ul{
     display: inline-flex;
   }
   /*/Home Page*/
+  /*Biography*/
+  .bio-wrap{
+    display: flex;
+    flex-direction: row;
+    flex: 1 0 auto;
+    justify-content: space-around;
+  }
+
+  .bio-text{
+    width: 50%;
+  }
+
+  .frame-wrap{
+    width: 35%;
+  }
+
+  .bio-frame{
+    background: #3396ff;
+    margin: 0.5em;
+    padding: 0.5em;
+    border: 4px solid #004a99;
+    border-radius: 4px;
+    font-size: 0.45em;
+    text-align: center;
+  }
+
+  .bio-photo{
+    margin: 0.2em;
+    border: 3px solid #ffffcc;
+    border-radius: 4px;
+  }
+  /*/Biography*/
 /*/Class Selectors*/
 
 /*Media Quieries*/
@@ -270,6 +302,19 @@ ul{
   .network-icons-mobile{
     display: block;
   }
+
+  .bio-wrap{
+    flex-direction: column;
+  }
+
+  .bio-text{
+    width: 100%;
+  }
+
+  .frame-wrap{
+    order: -1;
+    width: 90%;
+  }
 }
 @media(min-width: 41.01em){
   .nav-item{
@@ -295,6 +340,11 @@ ul{
 
   .section-text{
     min-height: 20%;
+  }
+
+  .bio-wrap{
+    flex-direction: row;
+    justify-content: space-around;
   }
 }
 /*/Media Quieries*/
