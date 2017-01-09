@@ -234,8 +234,80 @@ ul{
     margin: 0.2em;
     border: 3px solid #ffffcc;
     border-radius: 4px;
+    font-size: 1.2em;
   }
   /*/Biography*/
+  /*Contact*/
+  .contact-control{
+    display: flex;
+    flex-direction: column;
+    width: 65%;
+    margin: 0.5em auto 0.5em auto;
+    padding: 0.5em;
+    background: #3396ff;
+    border: 4px solid #004a99;
+    border-radius: 5px;
+  }
+
+  .contact-name{
+    font-family: 'Kelsonregular', sans-serif;
+    border: 3px solid #004a99;
+    border-radius: 5px;
+    background: #fdfdfe;
+    margin: 0.5em;
+    padding: 0.2em;
+    transition: 0.5s;
+  }
+
+  .contact-name:focus{
+    border: 3px solid #ffffcc;
+  }
+
+  .contact-email{
+    font-family: 'Kelsonregular', sans-serif;
+    border: 3px solid #004a99;
+    border-radius: 5px;
+    background: #fdfdfe;
+    margin: 0.5em;
+    padding: 0.2em;
+    trasition: 0.5s;
+  }
+
+  .contact-email:focus{
+    border: 3px solid #ffffcc;
+  }
+
+  .contact-msg{
+    font-family: 'Kelsonregular', sans-serif;
+    border: 3px solid #004a99;
+    border-radius: 5px;
+    background: #fdfdfe;
+    margin: 0.5em;
+    padding: 0.2em;
+    resize: none;
+    transition: 0.5s;
+  }
+
+  .contact-msg:focus{
+    border:3px solid #ffffcc;
+  }
+
+  .contact-submit{
+    width: 20%;
+    background: #004a99;
+    font-family: 'Kelsonregular', sans-serif;
+    margin: 0.5em;
+    padding: 0.2em;
+    border-radius: 5px;
+    border: none;
+    color: #fdfdfe;
+    transition: 0.5s;
+  }
+
+  .contact-submit:hover{
+    background: #1a66ff;
+  }
+  /*/Contact*/
 /*/Class Selectors*/
 
 /*Media Quieries*/
@@ -314,6 +386,16 @@ ul{
   .frame-wrap{
     order: -1;
     width: 90%;
+  }
+
+  .contact-control{
+    margin: 0.5em auto 0.5em auto;
+    width: 75%;
+  }
+
+  .contact-submit{
+    width: 80%;
+    margin: auto;
   }
 }
 @media(min-width: 41.01em){
