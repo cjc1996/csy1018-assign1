@@ -301,7 +301,7 @@ ul{
     border-radius: 5px;
     border: none;
     color: #fdfdfe;
-    transition: 0.5s;
+    transition: background 0.5s;
   }
 
   .contact-submit:hover{
@@ -386,6 +386,7 @@ ul{
   .frame-wrap{
     order: -1;
     width: 90%;
+    margin: 0.5em auto 0.5em auto;
   }
 
   .contact-control{
