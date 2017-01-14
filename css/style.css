@@ -237,6 +237,106 @@ ul{
     font-size: 1.2em;
   }
   /*/Biography*/
+  /*CV*/
+  .cv-title{
+    margin:  0.5em auto 0.5em auto;
+    text-align: center;
+    padding: 0.5em;
+    background: #3396ff;
+    border: 4px solid #004a99;
+    border-radius: 5px;
+    width: 75%;
+  }
+
+  .cv-address{
+    font-size: 0.65em;
+    margin: 0.2em;
+  }
+
+  .cv-contact{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  .cv-detail{
+    font-size: 0.65em;
+    margin: 0.2em;
+  }
+
+  .cv-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  .cv-left{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+  }
+
+  .cv-right{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+  }
+
+  .cv-statement{
+    margin: 0.5em auto 0.5em auto;
+    padding: 0.5em;
+    background: #3396ff;
+    border: 4px solid #004a99;
+    border-radius: 5px;
+    width: 80%;
+    font-size: 0.9em;
+  }
+
+  .cv-qualifications{
+    margin: 0.5em auto 0.5em auto;
+    padding: 0.5em;
+    background: #3396ff;
+    border: 4px solid #004a99;
+    border-radius: 5px;
+    width: 80%;
+  }
+
+  .cv-experiance{
+    margin: 0.5em auto 0.5em auto;
+    padding: 0.5em;
+    background: #3396ff;
+    border: 4px solid #004a99;
+    border-radius: 5px;
+    width: 80%;
+  }
+
+  .cv-skills{
+    margin: 0.5em auto 0.5em auto;
+    padding: 0.5em;
+    background: #3396ff;
+    border: 4px solid #004a99;
+    border-radius: 5px;
+    width: 80%;
+  }
+
+  .cv-references{
+    margin: 0.5em auto 0.5em auto;
+    padding: 0.5em;
+    background: #3396ff;
+    border: 4px solid #004a99;
+    border-radius: 5px;
+    width: 80%;
+  }
+
+  .cv-personal{
+    margin: 0.5em auto 0.5em auto;
+    padding: 0.5em;
+    background: #3396ff;
+    border: 4px solid #004a99;
+    border-radius: 5px;
+    width: 80%;
+  }
+  /*/CV*/
   /*Contact*/
   .contact-control{
     display: flex;
@@ -387,6 +487,18 @@ ul{
     order: -1;
     width: 90%;
     margin: 0.5em auto 0.5em auto;
+  }
+
+  .cv-content{
+    flex-direction: column;
+  }
+
+  .cv-left{
+    width: 100%;
+  }
+
+  .cv-right{
+    width: 100%;
   }
 
   .contact-control{
