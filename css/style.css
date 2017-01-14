@@ -208,12 +208,23 @@ ul{
   .bio-wrap{
     display: flex;
     flex-direction: row;
-    flex: 1 0 auto;
     justify-content: space-around;
   }
 
   .bio-text{
     width: 50%;
+    background: #3396ff;
+    border: 4px solid #004a99;
+    border-radius: 5px;
+    padding: 0.5em;
+  }
+
+  .bio-content{
+    display: flex;
+    flex-direction: column;
+    background: #ffffcc;
+    border-radius: 5px;
+    padding: 0.5em;
   }
 
   .frame-wrap{
@@ -232,9 +243,14 @@ ul{
 
   .bio-photo{
     margin: 0.2em;
-    border: 3px solid #ffffcc;
+    border: 3px solid #004a99;
     border-radius: 4px;
     font-size: 1.2em;
+  }
+
+  .bio-tag{
+    background: #ffffcc;
+    border-radius: 5px;
   }
   /*/Biography*/
   /*CV*/
